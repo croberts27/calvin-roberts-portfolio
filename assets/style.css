@@ -93,8 +93,8 @@ aside {
 }
 
 img {
-  height: auto;
-  width: auto;
-  margin-left: 30px;
+  height: 4em;
+  width: 4em;
+  margin-left: 1px;
   overflow: visible;
  }
