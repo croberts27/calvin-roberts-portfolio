@@ -1,11 +1,8 @@
 # CSS Portfolio
 
-## User Story
-````
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-````
+## Description
+
+The purpose of this portfolio is to showcase the skills I learn as I progress through the coding bootcamp. This will serve as my primary portfolio and will be shared with potential employers. This will be updated in real time as I continue to enhance my coding capabilities. 
 
 ## Acceptance Criteria
 ````
@@ -23,3 +20,5 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ````
+## Mock-Up Portfolio
+![portfolio-demo](./assets/images/02-advanced-css-homework-demo.gif)
