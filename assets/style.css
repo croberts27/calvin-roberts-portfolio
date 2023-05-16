@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2A607C;
+    color: #FFFFFF;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    padding: 10px;
+}
