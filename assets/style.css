@@ -71,12 +71,12 @@ p {
   border-radius: 3%;
 }
 
-.about-me-content h2 {
+/* .about-me-content h2 {
   position: absolute;
   padding: 2%;
   left: 40%;
   top: 3%;
-}
+} */
 
 main {
   background-color: #3e8bac;
@@ -88,7 +88,7 @@ main h2 {
   font-size: 2em;
   margin: 10px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .about-me-content {
@@ -171,6 +171,7 @@ main h2 {
 .contact-me-content h2 {
   display:flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .contact-me-content ul {
