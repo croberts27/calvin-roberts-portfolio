@@ -24,7 +24,7 @@ header {
 header h1 {
   margin-right: auto;
   font-size: 2em;
-  color: #ff4e08;
+  color: #ed340a;
 }
 
 header li {
@@ -39,7 +39,7 @@ header a {
 }
 
 header a:hover {
-  color: #ff4e08; 
+  color: #ed340a; 
 }
 
 nav {
@@ -55,20 +55,19 @@ a {
   padding: 10px;
 }
 
-p {
+/* p {
   font-size: 16px;
   display: block;
   align-self:center;
-}
+} */
 
 .about-me-content p {
-  font-size: 20px;
+  font-size: 16px;
   color: white;
-  display: block;
   align-self: center;
-  background: border-box;
   background-color: #267300;
-  border-radius: 3%;
+  border-radius: 50%;
+  padding: 60px;
 }
 
 /* .about-me-content h2 {
@@ -81,7 +80,7 @@ p {
 main {
   background-color: #3e8bac;
   padding: 10px;
-  border: 1px solid rgb(255, 66, 3);
+  border: 2px solid #ed340a;
 }
 
 main h2 {
@@ -89,6 +88,7 @@ main h2 {
   margin: 10px;
   padding: 10px;
   text-align: left;
+  color: #ed340a;
 }
 
 .about-me-content {
@@ -120,6 +120,7 @@ main h2 {
   text-align: center;
   width: 100%;
   height: 200px;
+  border-radius: 50%;
 }
 
 .my-works-content .placeholder {
@@ -135,9 +136,10 @@ main h2 {
 }
 
  #snippet {
-  border: 5px solid #fa450e;
+  border: 5px solid #ed340a;
   height: auto;
   width: 100%;
+  border-radius: 5%;
 }
 
  @media screen and (max-width:700px) {
@@ -154,7 +156,7 @@ main h2 {
   position: relative;
   padding: 5%;
   margin: 20px;
-  box-shadow: 5px 10px #ff4e08;
+  box-shadow: 5px 10px #ed340a;
 }
 
 #contact-me li {
@@ -164,7 +166,7 @@ main h2 {
 }
 
 #contact-me li a:hover {
-  color: #ff3c00;
+  color: #ed340a;
   transition: all 0.3s ease 0s; 
 }
 
