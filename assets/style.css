@@ -71,6 +71,13 @@ p {
   border-radius: 3%;
 }
 
+.about-me-content h2 {
+  position: absolute;
+  padding: 2%;
+  left: 40%;
+  top: 3%;
+}
+
 main {
   background-color: #3e8bac;
   padding: 10px;
@@ -82,7 +89,6 @@ main h2 {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  display:flex;
 }
 
 .about-me-content {
@@ -143,10 +149,12 @@ main h2 {
 #prof-pic {
   width: 200px;
   height: 200px;
-  border-radius: 5%;
+  border-radius: 10%;
   object-fit: cover;
-  margin: 15px;
-  box-shadow: 0 1px 8px #ff4e08;
+  position: relative;
+  padding: 5%;
+  margin: 20px;
+  box-shadow: 5px 10px #ff4e08;
 }
 
 #contact-me li {
