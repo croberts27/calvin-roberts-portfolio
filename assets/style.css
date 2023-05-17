@@ -100,7 +100,15 @@ main h2 {
 .css-snippet-page {
   min-width: 75%;
   flex-basis: 400px;
-  flex-grow: 1px;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.horiseon-refactor {
+  min-width: 75%;
+  flex-basis: 400px;
+  flex-grow: 1;
   display: flex;
   position: relative;
 }
@@ -111,7 +119,11 @@ main h2 {
 }
 
 .placeholder:hover {
-  opacity: .5;
+  box-shadow: 3px 10px #ff65d9;
+  transition: all 0.3s ease 0s;
+  opacity: .9;
+  border: 3px solid #ff65d9;
+  border-radius: 100%;
 }
 
 .placeholder p {
@@ -121,6 +133,7 @@ main h2 {
   width: 100%;
   height: 200px;
   border-radius: 50%;
+  border: 2px solid #ed340a;
 }
 
 .my-works-content .placeholder {
@@ -133,6 +146,19 @@ main h2 {
 .my-works-content div {
   flex-basis: 350px;
   min-width: 50%
+}
+
+.my-works-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#snippet:hover {
+  box-shadow: 5px 10px #ff65d9;
+  transition: all 0.3s ease 0s;
+  opacity: .9;
 }
 
  #snippet {
@@ -181,3 +207,4 @@ main h2 {
   justify-content: center;
   flex-direction: row;
 }
+
