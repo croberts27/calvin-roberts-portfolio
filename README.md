@@ -26,4 +26,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Potfolio Link
 
-My portfolio can be accessed at the following web address: https://croberts27.github.io/hw-2-pro-css-portfolio/
+My portfolio can be accessed at the following web address: https://croberts27.github.io/calvin-roberts-portfolio/
